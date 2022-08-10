@@ -14,6 +14,11 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.6.7",
-    "@heroicons/vue": "^1.0.6"
+    "@heroicons/vue": "^1.0.6",
+    "@uniformdev/canvas": "^17.0.0",
+    "@uniformdev/canvas-vue": "^17.0.0",
+    "@uniformdev/context": "^17.0.0",
+    "@uniformdev/context-vue": "^17.0.0",
+    "@uniformdev/uniform-nuxt": "^17.0.0"
   }
 }
