@@ -57,5 +57,5 @@ const { $useComposition } = useNuxtApp();
 
 const { data: compositionData } = await $useComposition({ slug: "items" });
 
-const composition = await compositionData._rawValue.composition;
+const composition = computed(() => compositionData.value.composition)
 </script>
